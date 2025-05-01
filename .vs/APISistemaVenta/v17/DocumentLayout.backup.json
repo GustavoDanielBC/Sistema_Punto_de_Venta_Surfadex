@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{040B8709-E971-4632-A65F-D4490B750D07}|SistemaVenta.Utility\\SistemaVenta.Utility.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{040B8709-E971-4632-A65F-D4490B750D07}|SistemaVenta.Utility\\SistemaVenta.Utility.csproj|solutionrelative:sistemaventa.utility\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.dto\\ventassemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\ventassemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.dal\\dbcontext\\dbventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|solutionrelative:sistemaventa.dal\\dbcontext\\dbventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{192F1E04-5E9C-4922-857D-0C4272B30EE9}|SistemaVenta.IOC\\SistemaVenta.IOC.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.ioc\\dependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{192F1E04-5E9C-4922-857D-0C4272B30EE9}|SistemaVenta.IOC\\SistemaVenta.IOC.csproj|solutionrelative:sistemaventa.ioc\\dependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|solutionrelative:sistemaventa.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.bll\\sistemaventa.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\sistemaventa.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|solutionrelative:sistemaventa.model\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\sistemaventa.dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\productodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DashboardDTO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\DashboardDTO.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.DTO\\DashboardDTO.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\DashboardDTO.cs",
-              "RelativeToolTip": "SistemaVenta.DTO\\DashboardDTO.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Dependencia.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.IOC\\Dependencia.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.IOC\\Dependencia.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.IOC\\Dependencia.cs",
+              "RelativeToolTip": "SistemaVenta.IOC\\Dependencia.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T01:56:13.969Z",
+              "WhenOpened": "2025-05-01T02:53:52.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VentasSemanaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\VentasSemanaDTO.cs",
-              "RelativeDocumentMoniker": "SistemaVenta.DTO\\VentasSemanaDTO.cs",
-              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\VentasSemanaDTO.cs",
-              "RelativeToolTip": "SistemaVenta.DTO\\VentasSemanaDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "DbventaContext.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "RelativeToolTip": "SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAmwOQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T19:45:20.884Z",
+              "WhenOpened": "2025-04-29T04:05:32.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.API\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.API\\Program.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.API\\Program.cs",
+              "RelativeToolTip": "SistemaVenta.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:02:40.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.API\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.API\\WeatherForecast.cs",
+              "RelativeToolTip": "SistemaVenta.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:02:35.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeToolTip": "SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T04:01:47.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SistemaVenta.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+              "RelativeDocumentMoniker": "SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+              "RelativeToolTip": "SistemaVenta.BLL\\SistemaVenta.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-29T03:29:13.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.Model\\Producto.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Model\\Producto.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.Model\\Producto.cs",
+              "RelativeToolTip": "SistemaVenta.Model\\Producto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:01:44.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\ProductoDTO.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DTO\\ProductoDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.DTO\\ProductoDTO.cs",
+              "RelativeToolTip": "SistemaVenta.DTO\\ProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T05:01:30.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.Utility\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Utility\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\SistemaVenta.Utility\\AutoMapperProfile.cs",
+              "RelativeToolTip": "SistemaVenta.Utility\\AutoMapperProfile.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T02:09:27.851Z",
               "EditorCaption": ""
             }
           ]

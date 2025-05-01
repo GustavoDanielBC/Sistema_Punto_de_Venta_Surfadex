@@ -86,3 +86,5 @@ C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.DAL.pdb
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
