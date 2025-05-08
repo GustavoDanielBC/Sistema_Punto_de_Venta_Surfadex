@@ -1,9 +1,9 @@
 export interface Usuario {
-    idUsuario: number,
-    nombreCompleto: string,
+    idUsuario:number,
+    nombreCompleto:string,
     correo:string,
     idRol:number,
-    rolDescripcion:string,
+    rolDescripcion: string,
     clave:string,
     esActivo:number
 }

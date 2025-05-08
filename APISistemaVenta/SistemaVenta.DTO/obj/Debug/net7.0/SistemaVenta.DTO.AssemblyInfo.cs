@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaVenta.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ed7e8efd1fb064582059c430ca2fce6c52936c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c290f04211d985e51603397714ea30eb18e443dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaVenta.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaVenta.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
