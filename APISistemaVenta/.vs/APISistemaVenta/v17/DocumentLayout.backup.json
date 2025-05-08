@@ -3,14 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,6 +49,64 @@
       "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+      "AbsoluteMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.bll\\servicios\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\servicios\\dashboardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.bll\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A3190ED-3E4A-498D-8916-793EAEC914FF}|SistemaVenta.BLL\\SistemaVenta.BLL.csproj|solutionrelative:sistemaventa.bll\\servicios\\categoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|solutionrelative:sistemaventa.dal\\repositorios\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dal\\dbcontext\\dbventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D03A9130-0FD5-4D7C-AC80-5C4569D1532C}|SistemaVenta.DAL\\SistemaVenta.DAL.csproj|solutionrelative:sistemaventa.dal\\dbcontext\\dbventacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dto\\ventassemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\ventassemanadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\dashboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\categoriadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|solutionrelative:sistemaventa.model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\ventacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+>>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\usuario\\documents\\github\\punto_de_venta\\apisistemaventa\\sistemaventa.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -62,7 +126,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 8,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -71,6 +139,102 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashBoardService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.BLL\\Servicios\\DashBoardService.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.BLL\\Servicios\\DashBoardService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.BLL\\Servicios\\DashBoardService.cs",
+              "RelativeToolTip": "SistemaVenta.BLL\\Servicios\\DashBoardService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAIAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:25:51.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.BLL\\Servicios\\CategoriaService.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.BLL\\Servicios\\CategoriaService.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.BLL\\Servicios\\CategoriaService.cs",
+              "RelativeToolTip": "SistemaVenta.BLL\\Servicios\\CategoriaService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:25:52.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "RelativeToolTip": "SistemaVenta.DAL\\Repositorios\\GenericRepository.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAIAwwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:24:54.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbventaContext.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "RelativeToolTip": "SistemaVenta.DAL\\DBContext\\DbventaContext.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAlwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:24:19.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VentasSemanaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\VentasSemanaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DTO\\VentasSemanaDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\VentasSemanaDTO.cs",
+              "RelativeToolTip": "SistemaVenta.DTO\\VentasSemanaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:24:07.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\DashboardDTO.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DTO\\DashboardDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\DashboardDTO.cs",
+              "RelativeToolTip": "SistemaVenta.DTO\\DashboardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:23:48.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Categoria.cs",
+              "RelativeToolTip": "SistemaVenta.Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:23:36.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoriaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\CategoriaDTO.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DTO\\CategoriaDTO.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\CategoriaDTO.cs",
+              "RelativeToolTip": "SistemaVenta.DTO\\CategoriaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:23:10.031Z"
             },
             {
               "$type": "Document",
@@ -105,7 +269,11 @@
               "RelativeDocumentMoniker": "SistemaVenta.API\\Program.cs",
               "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Program.cs",
               "RelativeToolTip": "SistemaVenta.API\\Program.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T23:24:12.98Z"
             },
@@ -117,13 +285,21 @@
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\MenuController.cs",
               "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\MenuController.cs",
               "RelativeToolTip": "SistemaVenta.API\\Controllers\\MenuController.cs",
+<<<<<<< Updated upstream
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA1AAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwB0AAAA1AAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T06:12:35.888Z"
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 4,
+=======
+              "DocumentIndex": 10,
+>>>>>>> Stashed changes
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\DashBoardController.cs",
@@ -135,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "VentaController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\VentaController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\VentaController.cs",
@@ -147,7 +323,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
+=======
+              "DocumentIndex": 12,
+>>>>>>> Stashed changes
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\ProductoController.cs",
@@ -159,7 +339,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 13,
+>>>>>>> Stashed changes
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\CategoriaController.cs",
@@ -171,7 +355,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 8,
+=======
+              "DocumentIndex": 14,
+>>>>>>> Stashed changes
               "Title": "SesionDTO.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\SesionDTO.cs",
               "RelativeDocumentMoniker": "SistemaVenta.DTO\\SesionDTO.cs",
@@ -183,7 +371,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 9,
+=======
+              "DocumentIndex": 15,
+>>>>>>> Stashed changes
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "SistemaVenta.DTO\\LoginDTO.cs",
@@ -195,7 +387,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 10,
+=======
+              "DocumentIndex": 16,
+>>>>>>> Stashed changes
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\UsuarioController.cs",
@@ -207,7 +403,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 11,
+=======
+              "DocumentIndex": 17,
+>>>>>>> Stashed changes
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\RolController.cs",
@@ -219,7 +419,11 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 12,
+=======
+              "DocumentIndex": 18,
+>>>>>>> Stashed changes
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Utilidad\\Response.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Utilidad\\Response.cs",

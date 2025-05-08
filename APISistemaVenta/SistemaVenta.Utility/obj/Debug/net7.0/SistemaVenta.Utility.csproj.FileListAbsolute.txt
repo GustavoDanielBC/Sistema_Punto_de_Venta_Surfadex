@@ -16,6 +16,7 @@ C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.Utility\bin\Debug\
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Model.pdb
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.Utility\obj\Debug\net7.0\SistemaVenta.Utility.csproj.AssemblyReference.cache
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.Utility\obj\Debug\net7.0\SistemaV.10E87F00.Up2Date
+<<<<<<< Updated upstream
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.deps.json
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.pdb
@@ -34,6 +35,8 @@ C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVent
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\refint\SistemaVenta.Utility.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\SistemaVenta.Utility.pdb
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\obj\Debug\net7.0\ref\SistemaVenta.Utility.dll
+=======
+>>>>>>> Stashed changes
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.deps.json
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.dll
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.Utility\bin\Debug\net7.0\SistemaVenta.Utility.pdb

@@ -88,6 +88,7 @@ C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.Utility.pdb
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+<<<<<<< Updated upstream
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.json
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.staticwebassets.endpoints.json
@@ -178,6 +179,8 @@ C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVent
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.pdb
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\SistemaVenta.API.genruntimeconfig.cache
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.API\obj\Debug\net7.0\ref\SistemaVenta.API.dll
+=======
+>>>>>>> Stashed changes
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\appsettings.json
 C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.API\bin\Debug\net7.0\SistemaVenta.API.staticwebassets.endpoints.json
