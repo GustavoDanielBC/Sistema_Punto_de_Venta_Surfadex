@@ -3461,23 +3461,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\usuario\\.nuget\\packages\\": {},
+    "C:\\Users\\gusba\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+      "projectUniqueName": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
       "projectName": "SistemaVenta.Model",
-      "projectPath": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
-      "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\Documents\\GitHub\\Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
+      "projectPath": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\SistemaVenta.Model.csproj",
+      "packagesPath": "C:\\Users\\gusba\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gusba\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3486,7 +3486,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3538,7 +3537,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
