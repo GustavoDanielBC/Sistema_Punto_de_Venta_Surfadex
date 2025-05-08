@@ -1,2 +1,3 @@
-export interface MenuTs {
+export interface Menu {
+    
 }
