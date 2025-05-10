@@ -9,7 +9,7 @@ import { Producto } from '../Interfaces/producto';
   providedIn: 'root'
 })
 export class ProductoService {
-  private urlApi:string = environment.endpoint + "Rol/";
+  private urlApi:string = environment.endpoint + "Producto/";
 
   constructor(private http:HttpClient) {}
 
