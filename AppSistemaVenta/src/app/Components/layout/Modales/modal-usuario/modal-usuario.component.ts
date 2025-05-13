@@ -64,4 +64,17 @@ export class ModalUsuarioComponent implements OnInit {
     }
   }
 
+
+  guardarEditar_Usuario(){
+    const _usuario:Usuario = {
+      idUsuario: this.datosUsuario == null ? 0 :this.datosUsuario.idUsuario,
+      nombreCompleto: this.formularioUsuario.value.nombreCompleto,
+      correo: this.formularioUsuario.value.correo,
+      idRol: this.formularioUsuario.value.idRol,
+      rolDescripcion: "",
+      clave: this.formularioUsuario.value.clave,
+      esActivo: parseInt(this.formularioUsuario.value.esActivo)
+    }
+  }
+
 }
