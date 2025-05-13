@@ -75,6 +75,29 @@ export class ModalUsuarioComponent implements OnInit {
       clave: this.formularioUsuario.value.clave,
       esActivo: parseInt(this.formularioUsuario.value.esActivo)
     }
+    if(this.datosUsuario == null){
+      this._usuarioServicio.guardar(_usuario).subscribe({
+        next:(data) => {
+          if(data.status){
+            this._utilidadServicio.mostrarAlerta("El Usuario fue registrado Exitosamente","Exito");
+            this.modalActual.close("true")
+          }else
+          this._utilidadServicio.mostrarAlerta("No se pudo registrar al Usuario","Error Terrible")
+        },
+          error:(e) =>{}
+      })
+    }else{
+      this._usuarioServicio.editar(_usuario).subscribe({
+        next:(data) => {
+          if(data.status){
+            this._utilidadServicio.mostrarAlerta("El Usuario fue editado Exitosamente","Exito");
+            this.modalActual.close("true")
+          }else
+          this._utilidadServicio.mostrarAlerta("No se pudo registrar al Usuario","Error Terrible")
+        },
+          error:(e) =>{}
+      })
+    }
   }
 
 }
