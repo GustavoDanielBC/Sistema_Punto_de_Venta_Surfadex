@@ -71,4 +71,37 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
       if(resultado === "true") this.obtenerUsuarios();
     });
   }
+  eliminarUsuario(usuario:Usuario){
+
+    Swal.fire({
+      title: '¿Desea eliminar el usuario?',
+      text: usuario.nombreCompleto,
+      icon:"warning",
+      confirmButtonColor: '#3085d6',
+      confirmButtonText: "Si, eliminar",
+      showCancelButton: true,
+      cancelButtonColor: '#d33',
+      cancelButtonText: 'No, volver'
+    }).then((resultado) =>{
+
+      if(resultado.isConfirmed){
+
+        this._usuarioServicio.eliminar(usuario.idUsuario).subscribe({
+          next:(data) =>{
+
+            if(data.status){
+              this._utilidadServicio.mostrarAlerta("El usuario fue eliminado","Listo!");
+              this.obtenerUsuarios();
+            }else
+              this._utilidadServicio.mostrarAlerta("No se pudo eliminar el usuario","Error");
+
+          },
+          error:(e) =>{}
+        })
+
+      }
+
+    })
+
+  }
 }
