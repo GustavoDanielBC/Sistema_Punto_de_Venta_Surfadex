@@ -1,4 +1,4 @@
-import { Component, OnInit,AfterViewInit,ViewChild } from '@angular/core';
+import { Component, OnInit, AfterViewInit, ViewChild } from '@angular/core';
 
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
@@ -10,9 +10,6 @@ import { UsuarioService } from 'src/app/Services/usuario.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 import Swal from 'sweetalert2';
 
-
-
-
 @Component({
   selector: 'app-usuario',
   templateUrl: './usuario.component.html',
@@ -20,27 +17,30 @@ import Swal from 'sweetalert2';
 })
 export class UsuarioComponent implements OnInit, AfterViewInit {
 
-  columnasTabla : String[] = ['nombreCompleto','correo','rolDescripcion','estado','acciones']
-  dataInicio: Usuario[] = [];
+  columnasTabla: string[] = ['nombreCompleto','correo','rolDescripcion','estado','acciones'];
+  dataInicio:Usuario[] = [];
   dataListaUsuarios = new MatTableDataSource(this.dataInicio);
-  @ViewChild(MatPaginator) paginacionTabla!: MatPaginator; 
+  @ViewChild(MatPaginator) paginacionTabla! : MatPaginator;
+
   constructor(
     private dialog: MatDialog,
     private _usuarioServicio:UsuarioService,
-    private _utilidadServicio:UtilidadService
+    private _utilidadServicio: UtilidadService
   ) { }
 
-  obtenerUsuarios(){
-    this._usuarioServicio.lista().subscribe({
-      next:(data) => {
-        if(data.status)
-          this.dataListaUsuarios.data = data.value;
-        else
-        this._utilidadServicio.mostrarAlerta("No se encontraron los datos de los Usuario(s)","Opps!")
-      },
-      error:(e)=>{}
-    })
-  }
+    obtenerUsuarios(){
+
+      this._usuarioServicio.lista().subscribe({
+        next: (data) => {
+          if(data.status)
+            this.dataListaUsuarios.data = data.value;
+          else
+            this._utilidadServicio.mostrarAlerta("No se encontraron datos","Oops!")
+        },
+        error:(e) =>{}
+      })
+
+    }
 
   ngOnInit(): void {
     this.obtenerUsuarios();
@@ -56,12 +56,12 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
   }
 
   nuevoUsuario(){
-    this.dialog.open(ModalUsuarioComponent,{
+    this.dialog.open(ModalUsuarioComponent, {
       disableClose:true
     }).afterClosed().subscribe(resultado =>{
       if(resultado === "true") this.obtenerUsuarios();
     });
-  } 
+  }
 
   editarUsuario(usuario:Usuario){
     this.dialog.open(ModalUsuarioComponent, {
@@ -71,6 +71,7 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
       if(resultado === "true") this.obtenerUsuarios();
     });
   }
+
   eliminarUsuario(usuario:Usuario){
 
     Swal.fire({
@@ -104,4 +105,5 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
     })
 
   }
+
 }
