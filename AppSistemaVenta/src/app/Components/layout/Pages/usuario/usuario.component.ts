@@ -1,15 +1,58 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,AfterViewInit,ViewChild } from '@angular/core';
+
+import { MatTableDataSource } from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatDialog } from '@angular/material/dialog';
+
+import { ModalUsuarioComponent } from '../../Modales/modal-usuario/modal-usuario.component';
+import { Usuario } from 'src/app/Interfaces/usuario';
+import { UsuarioService } from 'src/app/Services/usuario.service';
+import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
+import Swal from 'sweetalert2';
+
+
+
 
 @Component({
   selector: 'app-usuario',
   templateUrl: './usuario.component.html',
   styleUrls: ['./usuario.component.css']
 })
-export class UsuarioComponent implements OnInit {
+export class UsuarioComponent implements OnInit, AfterViewInit {
 
-  constructor() { }
+  columnasTabla : String[] = ['nombreCompleto','correo','rolDescripcion','estado','acciones']
+  dataInicio: Usuario[] = [];
+  dataListaUsuarios = new MatTableDataSource(this.dataInicio);
+  @ViewChild(MatPaginator) paginacionTabla!: MatPaginator; 
+  constructor(
+    private dialog: MatDialog,
+    private _usuarioServicio:UsuarioService,
+    private _utilidadServicio:UtilidadService
+  ) { }
 
-  ngOnInit(): void {
+  obtenerUsuarios(){
+    this._usuarioServicio.lista().subscribe({
+      next:(data) => {
+        if(data.status)
+          this.dataListaUsuarios.data = data.value;
+        else
+        this._utilidadServicio.mostrarAlerta("No se encontraron los datos de los Usuario(s)","Opps!")
+      },
+      error:(e)=>{}
+    })
   }
 
+  ngOnInit(): void {
+    this.obtenerUsuarios();
+  }
+
+  ngAfterViewInit(): void {
+    this.dataListaUsuarios.paginator = this.paginacionTabla;
+  }
+
+  aplicarFiltroTabla(event: Event){
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.dataListaUsuarios.filter = filterValue.trim().toLocaleLowerCase();
+  }
+ 
 }
