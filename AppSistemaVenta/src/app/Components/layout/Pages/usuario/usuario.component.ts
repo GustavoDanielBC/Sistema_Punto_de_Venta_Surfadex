@@ -54,5 +54,12 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataListaUsuarios.filter = filterValue.trim().toLocaleLowerCase();
   }
- 
+
+  nuevoUsuario(){
+    this.dialog.open(ModalUsuarioComponent,{
+      disableClose:true
+    }).afterClosed().subscribe(resultado =>{
+      if(resultado === "true") this.obtenerUsuarios();
+    });
+  } 
 }
