@@ -62,4 +62,13 @@ export class UsuarioComponent implements OnInit, AfterViewInit {
       if(resultado === "true") this.obtenerUsuarios();
     });
   } 
+
+  editarUsuario(usuario:Usuario){
+    this.dialog.open(ModalUsuarioComponent, {
+      disableClose:true,
+      data: usuario
+    }).afterClosed().subscribe(resultado =>{
+      if(resultado === "true") this.obtenerUsuarios();
+    });
+  }
 }
