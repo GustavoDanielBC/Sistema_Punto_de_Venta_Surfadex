@@ -62,8 +62,49 @@ export class ModalProductoComponent implements OnInit {
         esActivo: this.datosProducto.esActivo.toString()
       });
 
-      
+
     }
   }
+
+  guardarEditar_Producto(){
+    const _producto: Producto = {
+      idProducto: this.datosProducto == null ? 0 : this.datosProducto.idProducto,
+      nombre: this.formularioProducto.value.nombre,
+      idCategoria: this.formularioProducto.value.idCategoria,
+      descripcionCategoria: "",
+      precio: this.formularioProducto.value.precio,
+      stock: this.formularioProducto.value.stock,
+      esActivo: parseInt(this.formularioProducto.value.esActivo),
+    }
+    
+    if(this.datosProducto == null){
+
+      this._productoServicio.guardar(_producto).subscribe({
+        next: (data) =>{
+          if(data.status){
+            this._utilidadServicio.mostrarAlerta("El producto fue registrado","Exito");
+            this.modalActual.close("true")
+          }else
+            this._utilidadServicio.mostrarAlerta("No se pudo registrar el producto","Error")
+        },
+        error:(e) => {}
+      })
+
+    }else{
+
+      this._productoServicio.editar(_producto).subscribe({
+        next: (data) =>{
+          if(data.status){
+            this._utilidadServicio.mostrarAlerta("El producto fue editado","Exito");
+            this.modalActual.close("true")
+          }else
+            this._utilidadServicio.mostrarAlerta("No se pudo editar el producto","Error")
+        },
+        error:(e) => {}
+      })
+    }
+
+  }
+
 
 }
