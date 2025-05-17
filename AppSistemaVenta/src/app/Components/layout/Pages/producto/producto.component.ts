@@ -55,4 +55,12 @@ export class ProductoComponent implements OnInit,AfterViewInit {
     this.dataListaProductos.filter = filterValue.trim().toLocaleLowerCase();
   }
 
+  nuevoProducto(){
+    this.dialog.open(ModalProductoComponent, {
+      disableClose:true
+    }).afterClosed().subscribe(resultado =>{
+      if(resultado === "true") this.obtenerProductos();
+    });
+  }
+
 }
