@@ -63,4 +63,14 @@ export class ProductoComponent implements OnInit,AfterViewInit {
     });
   }
 
+
+  editarProducto(producto:Producto){
+    this.dialog.open(ModalProductoComponent, {
+      disableClose:true,
+      data: producto
+    }).afterClosed().subscribe(resultado =>{
+      if(resultado === "true") this.obtenerProductos();
+    });
+  }
+
 }
