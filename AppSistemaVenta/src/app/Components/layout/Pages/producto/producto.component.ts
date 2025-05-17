@@ -73,4 +73,38 @@ export class ProductoComponent implements OnInit,AfterViewInit {
     });
   }
 
+   eliminarProducto(producto:Producto){
+
+    Swal.fire({
+      title: '¿Desea eliminar el producto?',
+      text: producto.nombre,
+      icon:"warning",
+      confirmButtonColor: '#3085d6',
+      confirmButtonText: "Si, eliminar",
+      showCancelButton: true,
+      cancelButtonColor: '#d33',
+      cancelButtonText: 'No, volver'
+    }).then((resultado) =>{
+
+      if(resultado.isConfirmed){
+
+        this._productoServicio.eliminar(producto.idProducto).subscribe({
+          next:(data) =>{
+
+            if(data.status){
+              this._utilidadServicio.mostrarAlerta("El producto fue eliminado","Listo!");
+              this.obtenerProductos();
+            }else
+              this._utilidadServicio.mostrarAlerta("No se pudo eliminar el producto","Error");
+
+          },
+          error:(e) =>{}
+        })
+
+      }
+
+    })
+
+  }
+
 }
