@@ -107,16 +107,47 @@ export class VentaComponent implements OnInit {
 
 
   }
-  eliminarProducto(detalle: DetalleVenta){
+       eliminarProducto(detalle: DetalleVenta){
     this.totalPagar = this.totalPagar - parseFloat(detalle.totalTexto),
     this.listaProductosParaVenta = this.listaProductosParaVenta.filter(p => p.idProducto != detalle.idProducto);
 
     this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+     }
+
+    registrarVenta(){
+
+    if(this.listaProductosParaVenta.length > 0){
+
+      this.bloquearBotonRegistrar = true;
+
+      const request: Venta = {
+        tipoPago : this.tipodePagoPorDefecto,
+        totalTexto : String(this.totalPagar.toFixed(2)),
+        detalleVenta : this.listaProductosParaVenta
+      }
+
+      this._ventaServicio.registrar(request).subscribe({
+        next: (response) =>{
+          if(response.status){
+            this.totalPagar = 0.00;
+            this.listaProductosParaVenta = [];
+            this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+
+            Swal.fire({
+              icon: 'success',
+              title : 'Venta Registrada!',
+              text: `Numero de venta: ${response.value.numeroDocumento}`
+            })
+          }else
+            this._utilidadServicio.mostrarAlerta("No se pudo registrar la venta","Oops");
+        },
+        complete:()=>{
+          this.bloquearBotonRegistrar = false;
+        },
+        error:(e) => {}
+        })
+
+      }
   }
-
-
-
-
-  
 
 }

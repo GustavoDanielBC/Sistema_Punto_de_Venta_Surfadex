@@ -100,8 +100,19 @@
             </table>
 
         </div>
+        <mat-grid-list cols="4" rowHeight="80px">
 
+            <mat-grid-tile [colspan]="3"></mat-grid-tile>
+            <mat-grid-tile>
 
+                <button mat-raised-button color="primary" style="width: 80%;"
+                [disabled]="listaProductosParaVenta.length < 1 || bloquearBotonRegistrar"
+                (click)="registrarVenta()">
+                    <mat-icon>new_label</mat-icon> Registrar
+                </button>
+
+            </mat-grid-tile>
+        </mat-grid-list>
             
     </mat-card-content>
 
