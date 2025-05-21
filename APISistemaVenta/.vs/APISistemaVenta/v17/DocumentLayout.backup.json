@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|solutionrelative:sistemaventa.model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.dto\\menudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\menudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|solutionrelative:sistemaventa.model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -42,10 +54,6 @@
       "RelativeMoniker": "D:0:0:{F6007782-3BD8-41CA-9DF4-0FC34EBB2B4B}|SistemaVenta.API\\SistemaVenta.API.csproj|solutionrelative:sistemaventa.api\\controllers\\categoriacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6EEF9809-1A71-46CF-94C7-603E24B1BA89}|SistemaVenta.Model\\SistemaVenta.Model.csproj|solutionrelative:sistemaventa.model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|c:\\users\\gusba\\source\\repos\\puttytech_punto_de_venta\\apisistemaventa\\sistemaventa.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1B6ED0F-A381-4589-A116-32C1B2475EEF}|SistemaVenta.DTO\\SistemaVenta.DTO.csproj|solutionrelative:sistemaventa.dto\\sesiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,7 +77,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -77,7 +85,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Categoria.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.Model\\Categoria.cs",
+              "ToolTip": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Categoria.cs",
+              "RelativeToolTip": "SistemaVenta.Model\\Categoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:23:38.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuDTO.cs",
+              "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\MenuDTO.cs",
+              "RelativeDocumentMoniker": "SistemaVenta.DTO\\MenuDTO.cs",
+              "ToolTip": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\MenuDTO.cs",
+              "RelativeToolTip": "SistemaVenta.DTO\\MenuDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:23:17.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -88,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Properties\\launchSettings.json",
@@ -101,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\appsettings.json",
               "RelativeDocumentMoniker": "SistemaVenta.API\\appsettings.json",
@@ -114,19 +152,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Usuario.cs",
               "RelativeDocumentMoniker": "SistemaVenta.Model\\Usuario.cs",
               "ToolTip": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.Model\\Usuario.cs",
               "RelativeToolTip": "SistemaVenta.Model\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T04:17:56.207Z"
+              "WhenOpened": "2025-05-05T04:17:56.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Program.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Program.cs",
@@ -138,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\MenuController.cs",
@@ -150,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\DashBoardController.cs",
@@ -162,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "VentaController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\VentaController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\VentaController.cs",
@@ -174,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\ProductoController.cs",
@@ -186,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CategoriaController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\CategoriaController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\CategoriaController.cs",
@@ -198,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "SesionDTO.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\SesionDTO.cs",
               "RelativeDocumentMoniker": "SistemaVenta.DTO\\SesionDTO.cs",
@@ -210,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.DTO\\LoginDTO.cs",
               "RelativeDocumentMoniker": "SistemaVenta.DTO\\LoginDTO.cs",
@@ -222,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\UsuarioController.cs",
@@ -234,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Controllers\\RolController.cs",
@@ -246,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\gusba\\source\\repos\\Puttytech_Punto_de_Venta\\APISistemaVenta\\SistemaVenta.API\\Utilidad\\Response.cs",
               "RelativeDocumentMoniker": "SistemaVenta.API\\Utilidad\\Response.cs",
@@ -255,10 +294,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T20:00:57.909Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
