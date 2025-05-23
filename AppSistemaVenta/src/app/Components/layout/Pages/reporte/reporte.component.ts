@@ -94,4 +94,11 @@ export class ReporteComponent implements OnInit {
       error: (e) => {},
     });
   }
+  exportarExcel() {
+    const wb = XLSX.utils.book_new();
+    const ws = XLSX.utils.json_to_sheet(this.listaVentasReporte);
+
+    XLSX.utils.book_append_sheet(wb, ws, 'Reporte');
+    XLSX.writeFile(wb, 'Reporte Ventas.xlsx');
+  }
 }
