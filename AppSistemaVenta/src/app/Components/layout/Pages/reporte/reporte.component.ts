@@ -61,4 +61,37 @@ export class ReporteComponent implements OnInit {
   ngAfterViewInit(): void {
     this.dataVentaReporte.paginator = this.paginacionTabla;
   }
+  buscarVentas() {
+    const _fechaInicio = moment(this.formularioFiltro.value.fechaInicio).format(
+      'DD/MM/YYYY'
+    );
+    const _fechaFin = moment(this.formularioFiltro.value.fechaFin).format(
+      'DD/MM/YYYY'
+    );
+
+    if (_fechaInicio === 'Invalid date' || _fechaFin === 'Invalid date') {
+      this._utilidadServicio.mostrarAlerta(
+        'Debe ingresar ambas fechas',
+        'Oops!'
+      );
+      return;
+    }
+
+    this._ventaServicio.reporte(_fechaInicio, _fechaFin).subscribe({
+      next: (data) => {
+        if (data.status) {
+          this.listaVentasReporte = data.value;
+          this.dataVentaReporte.data = data.value;
+        } else {
+          this.listaVentasReporte = [];
+          this.dataVentaReporte.data = [];
+          this._utilidadServicio.mostrarAlerta(
+            'No se encontraron datos',
+            'Oops!'
+          );
+        }
+      },
+      error: (e) => {},
+    });
+  }
 }
