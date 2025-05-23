@@ -32,6 +32,15 @@
                 </button>
             </div>
         </form>
+        
+         <button mat-raised-button color="warn" 
+            [disabled]="listaVentasReporte.length < 1"
+            (click)="exportarExcel()"
+            >
+                <mat-icon>feed</mat-icon> Exportar Excel
+        </button>
+
+
         <div class="mat-elevation-z2" style="margin-top: 15px;">
 
             <table mat-table [dataSource]="dataVentaReporte">
