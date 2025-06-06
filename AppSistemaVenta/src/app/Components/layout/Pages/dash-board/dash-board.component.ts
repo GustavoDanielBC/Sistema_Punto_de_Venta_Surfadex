@@ -20,37 +20,53 @@ export class DashBoardComponent implements OnInit {
   ) { }
 
 
-  mostrarGrafico(labelGrafico:any[],dataGrafico:any[]){
-
-    const chartBarras = new Chart('chartBarras',{
-      type:'bar',
-      data: {
-        labels:labelGrafico,
-        datasets:[{
-          label:"# de Ventas",
-          data: dataGrafico,
-          backgroundColor:[
-            'rgba(54, 162, 235, 0.2)'
-          ],
-          borderColor:[
-            'rgba(54, 162, 235, 1)'
-          ],
-          borderWidth:1
-        }]
-      },
-      options:{
-        maintainAspectRatio:false,
-        responsive:true,
-        scales:{
-          y:{
-            beginAtZero:true
+  mostrarGrafico(labelGrafico: any[], dataGrafico: any[]) {
+  const chartBarras = new Chart('chartBarras', {
+    type: 'bar',
+    data: {
+      labels: labelGrafico,
+      datasets: [{
+        label: "# de Ventas",
+        data: dataGrafico,
+        backgroundColor: ['rgba(54, 162, 235, 0.2)'],
+        borderColor: ['rgba(54, 162, 235, 1)'],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      responsive: true,
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: 'Fecha',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          }
+        },
+        y: {
+          beginAtZero: true,
+          max: 20,
+          title: {
+            display: true,
+            text: 'Ventas totales del dia',
+            font: {
+              size: 14,
+              weight: 'bold'
+            }
+          },
+          ticks: {
+            stepSize: 5
           }
         }
       }
-    });
+    }
+  });
+}
 
-
-  }
 
   ngOnInit(): void {
 
