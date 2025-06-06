@@ -1,5 +1,4 @@
 import { Component, OnInit, Inject } from '@angular/core';
-
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Rol } from 'src/app/Interfaces/rol';
@@ -16,10 +15,10 @@ import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 })
 export class ModalUsuarioComponent implements OnInit {
 
-  formularioUsuario:FormGroup;
+  formularioUsuario: FormGroup;
   ocultarPassword: boolean = true;
-  tituloAccion:string = "Agregar";
-  botonAccion:string = "Guardar";
+  tituloAccion: string = "Agregar";
+  botonAccion: string = "Guardar";
   listaRoles: Rol[] = [];
 
   constructor(
@@ -29,88 +28,95 @@ export class ModalUsuarioComponent implements OnInit {
     private _rolServicio: RolService,
     private _usuarioServicio: UsuarioService,
     private _utilidadServicio: UtilidadService
-  ) { 
-
+  ) {
     this.formularioUsuario = this.fb.group({
-      nombreCompleto : ['',Validators.required],
-      correo : ['',Validators.required],
-      idRol : ['',Validators.required],
-      clave : ['',Validators.required],
-      esActivo : ['1',Validators.required],
+      nombreCompleto: ['', Validators.required],
+      correo: ['', [
+        Validators.required,
+        Validators.email,
+        Validators.pattern('^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$')
+      ]],
+      idRol: ['', Validators.required],
+      clave: ['', Validators.required],
+      esActivo: ['1', Validators.required],
     });
 
-      if(this.datosUsuario != null){
+    if (this.datosUsuario != null) {
+      this.tituloAccion = "Editar";
+      this.botonAccion = "Actualizar";
 
-        this.tituloAccion = "Editar";
-        this.botonAccion = "Actualizar";
+      // Si es edición, no pedimos clave obligatoria
+      this.formularioUsuario.get('clave')?.clearValidators();
+      this.formularioUsuario.get('clave')?.updateValueAndValidity();
+    }
+
+    this._rolServicio.lista().subscribe({
+      next: (data) => {
+        if (data.status) this.listaRoles = data.value
+      },
+      error: (e) => {
+        console.error("Error cargando roles", e);
+        this._utilidadServicio.mostrarAlerta("No se pudieron cargar los roles", "Error");
       }
-
-      this._rolServicio.lista().subscribe({
-        next: (data) => {
-          if(data.status) this.listaRoles = data.value
-        },
-        error:(e) =>{}
-      })
-
+    });
   }
 
   ngOnInit(): void {
-
-    if(this.datosUsuario != null){
-
+    if (this.datosUsuario != null) {
       this.formularioUsuario.patchValue({
-        nombreCompleto : this.datosUsuario.nombreCompleto,
-        correo : this.datosUsuario.correo,
-        idRol : this.datosUsuario.idRol,
-        clave : this.datosUsuario.clave,
-        esActivo : this.datosUsuario.esActivo.toString()
-      })
-
+        nombreCompleto: this.datosUsuario.nombreCompleto,
+        correo: this.datosUsuario.correo,
+        idRol: this.datosUsuario.idRol,
+        clave: '', // se deja vacío
+        esActivo: this.datosUsuario.esActivo.toString()
+      });
     }
-
   }
 
-
-  guardarEditar_Usuario(){
+  guardarEditar_Usuario() {
+    if (this.formularioUsuario.invalid) return;
 
     const _usuario: Usuario = {
-      idUsuario : this.datosUsuario == null ? 0 : this.datosUsuario.idUsuario,
-      nombreCompleto : this.formularioUsuario.value.nombreCompleto,
+      idUsuario: this.datosUsuario == null ? 0 : this.datosUsuario.idUsuario,
+      nombreCompleto: this.formularioUsuario.value.nombreCompleto,
       correo: this.formularioUsuario.value.correo,
       idRol: this.formularioUsuario.value.idRol,
-      rolDescripcion  : "",
+      rolDescripcion: "",
       clave: this.formularioUsuario.value.clave,
       esActivo: parseInt(this.formularioUsuario.value.esActivo),
-    }
+    };
 
-    if(this.datosUsuario == null){
-
+    if (this.datosUsuario == null) {
       this._usuarioServicio.guardar(_usuario).subscribe({
-        next: (data) =>{
-          if(data.status){
-            this._utilidadServicio.mostrarAlerta("El usuario fue registrado","Exito");
-            this.modalActual.close("true")
-          }else
-            this._utilidadServicio.mostrarAlerta("No se pudo registrar el usuario","Error")
+        next: (data) => {
+          if (data.status) {
+            this._utilidadServicio.mostrarAlerta("El usuario fue registrado", "Éxito");
+            this.modalActual.close("true");
+          } else {
+            this._utilidadServicio.mostrarAlerta("No se pudo registrar el usuario", "Error");
+          }
         },
-        error:(e) => {}
-      })
-
-    }else{
-
+        error: (e) => {
+          console.error("Error registrando usuario", e);
+          this._utilidadServicio.mostrarAlerta("Error en la solicitud", "Error");
+        }
+      });
+    } else {
       this._usuarioServicio.editar(_usuario).subscribe({
-        next: (data) =>{
-          if(data.status){
-            this._utilidadServicio.mostrarAlerta("El usuario fue editado","Exito");
-            this.modalActual.close("true")
-          }else
-            this._utilidadServicio.mostrarAlerta("No se pudo editar el usuario","Error")
+        next: (data) => {
+          if (data.status) {
+            this._utilidadServicio.mostrarAlerta("El usuario fue editado", "Éxito");
+            this.modalActual.close("true");
+          } else {
+            this._utilidadServicio.mostrarAlerta("No se pudo editar el usuario", "Error");
+          }
         },
-        error:(e) => {}
-      })
+        error: (e) => {
+          console.error("Error editando usuario", e);
+          this._utilidadServicio.mostrarAlerta("Error en la solicitud", "Error");
+        }
+      });
     }
-
   }
-
 
 }
