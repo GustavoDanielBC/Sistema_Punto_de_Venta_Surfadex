@@ -20,7 +20,7 @@ import Swal from 'sweetalert2';
 })
 export class VentaComponent implements OnInit {
 
-  listaProductos:Producto[] = [];
+  listaProductos: Producto[] = [];
   listaProductosFiltro: Producto[] = [];
 
   listaProductosParaVenta: DetalleVenta[] = [];
@@ -28,126 +28,144 @@ export class VentaComponent implements OnInit {
 
   productoSeleccionado!: Producto;
   tipodePagoPorDefecto: string = "Efectivo";
-  totalPagar:  number = 0;
+  totalPagar: number = 0;
 
   formularioProductoVenta: FormGroup;
-  columnasTabla: string[] = ['producto','cantidad','precio','total','accion'];
+  columnasTabla: string[] = ['producto', 'cantidad', 'precio', 'total', 'accion'];
   datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
 
-  retornarProductosPorFiltro(busqueda:any):Producto[]{
-    const valorBuscado = typeof busqueda === "string" ? busqueda.toLocaleLowerCase() : busqueda.nombre.toLocaleLowerCase();
-
-    return this.listaProductos.filter(item => item.nombre.toLocaleLowerCase().includes(valorBuscado));
-  }
-
   constructor(
-    private fb:FormBuilder,
+    private fb: FormBuilder,
     private _productoServicio: ProductoService,
     private _ventaServicio: VentaService,
     private _utilidadServicio: UtilidadService
-  ) { 
-
-
+  ) {
     this.formularioProductoVenta = this.fb.group({
-      producto: ['',Validators.required],
-      cantidad: ['',Validators.required]
+      producto: ['', Validators.required],
+      cantidad: ['', Validators.required]
     });
 
-    
     this._productoServicio.lista().subscribe({
       next: (data) => {
-        if(data.status){
+        if (data.status) {
           const lista = data.value as Producto[];
           this.listaProductos = lista.filter(p => p.esActivo == 1 && p.stock > 0);
         }
       },
-      error:(e) =>{}
-    })
+      error: (e) => { }
+    });
 
     this.formularioProductoVenta.get('producto')?.valueChanges.subscribe(value => {
       this.listaProductosFiltro = this.retornarProductosPorFiltro(value);
-    })
-
-
+    });
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  retornarProductosPorFiltro(busqueda: any): Producto[] {
+    const valorBuscado = typeof busqueda === "string" ? busqueda.toLocaleLowerCase() : busqueda.nombre.toLocaleLowerCase();
+    return this.listaProductos.filter(item => item.nombre.toLocaleLowerCase().includes(valorBuscado));
   }
 
-  mostrarProducto(producto: Producto): string{
-
+  mostrarProducto(producto: Producto): string {
     return producto.nombre;
   }
 
-  productoParaVenta(event:any){
+  productoParaVenta(event: any) {
     this.productoSeleccionado = event.option.value;
   }
 
-  agregarProductoParaVenta(){
-
+  agregarProductoParaVenta() {
     const _cantidad: number = this.formularioProductoVenta.value.cantidad;
-    const _precio:number = parseFloat(this.productoSeleccionado.precio);
-    const _total:number = _cantidad * _precio;
+
+    if (!_cantidad || !this.productoSeleccionado) {
+      this._utilidadServicio.mostrarAlerta("Producto o cantidad inválida", "Error");
+      return;
+    }
+
+    if (_cantidad > this.productoSeleccionado.stock) {
+      this._utilidadServicio.mostrarAlerta(
+        `No puedes vender el producto, solo hay en existencia ${this.productoSeleccionado.stock} unidades`,
+        "Stock insuficiente"
+      );
+      return;
+    }
+
+    const _precio: number = parseFloat(this.productoSeleccionado.precio);
+    const _total: number = _cantidad * _precio;
     this.totalPagar = this.totalPagar + _total;
 
     this.listaProductosParaVenta.push({
-      idProducto : this.productoSeleccionado.idProducto,
-      descripcionProducto : this.productoSeleccionado.nombre,
-      cantidad : _cantidad,
+      idProducto: this.productoSeleccionado.idProducto,
+      descripcionProducto: this.productoSeleccionado.nombre,
+      cantidad: _cantidad,
       precioTexto: String(_precio.toFixed(2)),
-      totalTexto : String(_total.toFixed(2))
-    })
+      totalTexto: String(_total.toFixed(2))
+    });
 
     this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
 
     this.formularioProductoVenta.patchValue({
-      producto:'',
+      producto: '',
       cantidad: ''
-    })
+    });
 
-
+    this.productoSeleccionado = undefined!;
   }
-       eliminarProducto(detalle: DetalleVenta){
-    this.totalPagar = this.totalPagar - parseFloat(detalle.totalTexto),
+
+  eliminarProducto(detalle: DetalleVenta) {
+    this.totalPagar = this.totalPagar - parseFloat(detalle.totalTexto);
     this.listaProductosParaVenta = this.listaProductosParaVenta.filter(p => p.idProducto != detalle.idProducto);
 
     this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
-     }
+  }
 
-    registrarVenta(){
+  registrarVenta() {
+    if (this.listaProductosParaVenta.length === 0) {
+      this._utilidadServicio.mostrarAlerta("Agrega productos antes de registrar la venta", "Aviso");
+      return;
+    }
 
-    if(this.listaProductosParaVenta.length > 0){
+    // Validación adicional de stock antes de registrar
+    const stockInsuficiente = this.listaProductosParaVenta.some(item => {
+      const producto = this.listaProductos.find(p => p.idProducto === item.idProducto);
+      return producto && item.cantidad > producto.stock;
+    });
 
-      this.bloquearBotonRegistrar = true;
+    if (stockInsuficiente) {
+      this._utilidadServicio.mostrarAlerta("Hay productos con cantidad mayor al stock disponible", "Error");
+      return;
+    }
 
-      const request: Venta = {
-        tipoPago : this.tipodePagoPorDefecto,
-        totalTexto : String(this.totalPagar.toFixed(2)),
-        detalleVenta : this.listaProductosParaVenta
-      }
+    this.bloquearBotonRegistrar = true;
 
-      this._ventaServicio.registrar(request).subscribe({
-        next: (response) =>{
-          if(response.status){
-            this.totalPagar = 0.00;
-            this.listaProductosParaVenta = [];
-            this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+    const request: Venta = {
+      tipoPago: this.tipodePagoPorDefecto,
+      totalTexto: String(this.totalPagar.toFixed(2)),
+      detalleVenta: this.listaProductosParaVenta
+    };
 
-            Swal.fire({
-              icon: 'success',
-              title : 'Venta Registrada!',
-              text: `Numero de venta: ${response.value.numeroDocumento}`
-            })
-          }else
-            this._utilidadServicio.mostrarAlerta("No se pudo registrar la venta","Oops");
-        },
-        complete:()=>{
-          this.bloquearBotonRegistrar = false;
-        },
-        error:(e) => {}
-        })
+    this._ventaServicio.registrar(request).subscribe({
+      next: (response) => {
+        if (response.status) {
+          this.totalPagar = 0.00;
+          this.listaProductosParaVenta = [];
+          this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
 
-      }
+          Swal.fire({
+            icon: 'success',
+            title: 'Venta Registrada!',
+            text: `Número de venta: ${response.value.numeroDocumento}`
+          });
+        } else {
+          this._utilidadServicio.mostrarAlerta("No se pudo registrar la venta", "Oops");
+        }
+      },
+      complete: () => {
+        this.bloquearBotonRegistrar = false;
+      },
+      error: (e) => { }
+    });
   }
 
 }
