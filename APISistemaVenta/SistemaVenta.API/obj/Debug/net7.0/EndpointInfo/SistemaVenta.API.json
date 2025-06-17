@@ -500,11 +500,11 @@
             "format": "int32",
             "nullable": true
           },
-          "clave": {
+          "rolDescripcion": {
             "type": "string",
             "nullable": true
           },
-          "rolDescripcion": {
+          "clave": {
             "type": "string",
             "nullable": true
           },
@@ -523,7 +523,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "folioFiscal": {
+          "numeroDocumento": {
             "type": "string",
             "nullable": true
           },

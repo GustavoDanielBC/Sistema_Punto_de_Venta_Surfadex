@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using SistemaVenta.DAL.Repositorios.Contrato;
 using SistemaVenta.DAL.DBContext;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using Azure.Core;
 
 namespace SistemaVenta.DAL.Repositorios
 {
-    public class GenericRepository<TModelo> : IGenericRepository<TModelo> where TModelo : class
+    public  class GenericRepository<TModelo> : IGenericRepository<TModelo> where TModelo : class
     {
         private readonly DbventaContext _dbcontext;
 
@@ -26,10 +28,10 @@ namespace SistemaVenta.DAL.Repositorios
                 TModelo modelo = await _dbcontext.Set<TModelo>().FirstOrDefaultAsync(filtro);
                 return modelo;
             }
-            catch
-            {
+            catch {
                 throw;
             }
+
         }
 
         public async Task<TModelo> Crear(TModelo modelo)
@@ -78,13 +80,14 @@ namespace SistemaVenta.DAL.Repositorios
         {
             try
             {
-                IQueryable<TModelo> querymodelo = filtro == null ? _dbcontext.Set<TModelo>(): _dbcontext.Set<TModelo>().Where(filtro);
-                return querymodelo;
+                IQueryable<TModelo> queryModelo = filtro == null ? _dbcontext.Set<TModelo>() : _dbcontext.Set<TModelo>().Where(filtro);
+                return queryModelo;
             }
             catch
             {
                 throw;
             }
         }
+
     }
 }

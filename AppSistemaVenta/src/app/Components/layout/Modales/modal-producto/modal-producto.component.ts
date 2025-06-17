@@ -20,7 +20,8 @@ export class ModalProductoComponent implements OnInit {
   botonAccion:string = "Guardar";
   listaCategorias: Categoria[] = [];
 
-  constructor( 
+
+  constructor(
     private modalActual: MatDialogRef<ModalProductoComponent>,
     @Inject(MAT_DIALOG_DATA) public datosProducto: Producto,
     private fb: FormBuilder,
@@ -28,12 +29,13 @@ export class ModalProductoComponent implements OnInit {
     private _productoServicio: ProductoService,
     private _utilidadServicio: UtilidadService
   ) { 
+
     this.formularioProducto = this.fb.group({
-      nombre:['',Validators.required],
-      idCategoria:['',Validators.required],
-      stock:['',Validators.required],
-      precio:['',Validators.required],
-      esActivo:['1',Validators.required]
+      nombre: ['',Validators.required],
+      idCategoria: ['',Validators.required],
+      stock: ['',Validators.required],
+      precio: ['',Validators.required],
+      esActivo: ['1',Validators.required]
     });
 
     if(this.datosProducto != null){
@@ -42,14 +44,15 @@ export class ModalProductoComponent implements OnInit {
       this.botonAccion = "Actualizar";
     }
 
-    this._categoriaServicio.lista().subscribe({
-      next: (data) => {
-        if(data.status) this.listaCategorias = data.value
-      },
-      error:(e) =>{}
+
+  this._categoriaServicio.lista().subscribe({
+        next: (data) => {
+          if(data.status) this.listaCategorias = data.value
+        },
+        error:(e) =>{}
   })
 
-}
+  }
 
   ngOnInit(): void {
     if(this.datosProducto != null){
@@ -59,24 +62,24 @@ export class ModalProductoComponent implements OnInit {
         idCategoria: this.datosProducto.idCategoria,
         stock: this.datosProducto.stock,
         precio: this.datosProducto.precio,
-        esActivo: this.datosProducto.esActivo.toString()
+        esActivo : this.datosProducto.esActivo.toString()
       });
-
 
     }
   }
 
   guardarEditar_Producto(){
+
     const _producto: Producto = {
-      idProducto: this.datosProducto == null ? 0 : this.datosProducto.idProducto,
-      nombre: this.formularioProducto.value.nombre,
+      idProducto : this.datosProducto == null ? 0 : this.datosProducto.idProducto,
+      nombre : this.formularioProducto.value.nombre,
       idCategoria: this.formularioProducto.value.idCategoria,
       descripcionCategoria: "",
-      precio: this.formularioProducto.value.precio,
+      precio  : this.formularioProducto.value.precio,
       stock: this.formularioProducto.value.stock,
       esActivo: parseInt(this.formularioProducto.value.esActivo),
     }
-    
+
     if(this.datosProducto == null){
 
       this._productoServicio.guardar(_producto).subscribe({
@@ -105,6 +108,5 @@ export class ModalProductoComponent implements OnInit {
     }
 
   }
-
 
 }

@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 using SistemaVenta.BLL.Servicios.Contrato;
 using SistemaVenta.DTO;
-using SistemaVenta.API.Utilidad;    
+using SistemaVenta.API.Utilidad;
 
 namespace SistemaVenta.API.Controllers
 {
@@ -20,24 +21,23 @@ namespace SistemaVenta.API.Controllers
 
         [HttpGet]
         [Route("Lista")]
-        public async Task <IActionResult> Lista()
-        {
+        public async Task<IActionResult> Lista() {
             var rsp = new Response<List<RolDTO>>();
 
             try
             {
                 rsp.status = true;
-                rsp.Value = await _rolServicio.Lista();
+                rsp.value = await _rolServicio.Lista();
+
             }
-            catch (Exception ex)
-            {
+            catch (Exception ex) { 
                 rsp.status = false;
-                rsp.msg = ex.Message;
+                rsp.msg= ex.Message;
+            
             }
-
-
             return Ok(rsp);
-
         }
+
+
     }
 }

@@ -1,26 +1,24 @@
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.deps.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfo.cs
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.sourcelink.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\refint\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\ref\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaV.93BC7325.Up2Date
-<<<<<<< Updated upstream
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.deps.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfo.cs
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\refint\SistemaVenta.BLL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\ref\SistemaVenta.BLL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.CopyComplete
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.deps.json
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.pdb
@@ -43,27 +41,3 @@ C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVent
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\refint\SistemaVenta.BLL.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.pdb
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\ref\SistemaVenta.BLL.dll
-=======
->>>>>>> Stashed changes
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.deps.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.BLL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.DTO.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Model.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\bin\Debug\net7.0\SistemaVenta.Utility.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.AssemblyReference.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfoInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.AssemblyInfo.cs
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.sourcelink.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaV.93BC7325.Up2Date
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\refint\SistemaVenta.BLL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\SistemaVenta.BLL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.BLL\obj\Debug\net7.0\ref\SistemaVenta.BLL.dll

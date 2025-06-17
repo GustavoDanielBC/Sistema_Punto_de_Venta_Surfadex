@@ -9,15 +9,17 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.inyectarDependencias(builder.Configuration);
+builder.Services.InyectarDependencias(builder.Configuration);
 
-builder.Services.AddCors(options => { 
-options.AddPolicy("NuevaPolitica", app => {
-    app.AllowAnyOrigin()
-    .AllowAnyHeader()
-    .AllowAnyMethod();
-    }); 
-});
+builder.Services.AddCors(options => {
+    options.AddPolicy("NuevaPolitica", app => {
+        app.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod();
+    });
+
+} );
+
 
 var app = builder.Build();
 

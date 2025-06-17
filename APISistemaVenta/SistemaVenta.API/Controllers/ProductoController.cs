@@ -6,7 +6,6 @@ using SistemaVenta.BLL.Servicios.Contrato;
 using SistemaVenta.DTO;
 using SistemaVenta.API.Utilidad;
 
-
 namespace SistemaVenta.API.Controllers
 {
     [Route("api/[controller]")]
@@ -30,22 +29,21 @@ namespace SistemaVenta.API.Controllers
             try
             {
                 rsp.status = true;
-                rsp.Value = await _productoServicio.Lista();
+                rsp.value = await _productoServicio.Lista();
+
             }
             catch (Exception ex)
             {
                 rsp.status = false;
                 rsp.msg = ex.Message;
+
             }
-
-
             return Ok(rsp);
-
         }
+
 
         [HttpPost]
         [Route("Guardar")]
-
         public async Task<IActionResult> Guardar([FromBody] ProductoDTO producto)
         {
             var rsp = new Response<ProductoDTO>();
@@ -53,20 +51,22 @@ namespace SistemaVenta.API.Controllers
             try
             {
                 rsp.status = true;
-                rsp.Value = await _productoServicio.Crear(producto);
+                rsp.value = await _productoServicio.Crear(producto);
+
             }
             catch (Exception ex)
             {
                 rsp.status = false;
                 rsp.msg = ex.Message;
-            }
 
+            }
             return Ok(rsp);
+
         }
+
 
         [HttpPut]
         [Route("Editar")]
-
         public async Task<IActionResult> Editar([FromBody] ProductoDTO producto)
         {
             var rsp = new Response<bool>();
@@ -74,21 +74,22 @@ namespace SistemaVenta.API.Controllers
             try
             {
                 rsp.status = true;
-                rsp.Value = await _productoServicio.Editar(producto);
+                rsp.value = await _productoServicio.Editar(producto);
+
             }
             catch (Exception ex)
             {
                 rsp.status = false;
                 rsp.msg = ex.Message;
-            }
 
+            }
             return Ok(rsp);
+
         }
 
 
         [HttpDelete]
         [Route("Eliminar/{id:int}")]
-
         public async Task<IActionResult> Eliminar(int id)
         {
             var rsp = new Response<bool>();
@@ -96,15 +97,20 @@ namespace SistemaVenta.API.Controllers
             try
             {
                 rsp.status = true;
-                rsp.Value = await _productoServicio.Eliminar(id);
+                rsp.value = await _productoServicio.Eliminar(id);
+
             }
             catch (Exception ex)
             {
                 rsp.status = false;
                 rsp.msg = ex.Message;
-            }
 
+            }
             return Ok(rsp);
+
         }
+
+
+
     }
 }

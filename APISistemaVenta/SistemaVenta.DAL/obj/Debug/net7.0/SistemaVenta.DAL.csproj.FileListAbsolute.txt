@@ -1,20 +1,18 @@
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.deps.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfoInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfo.cs
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.sourcelink.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\refint\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaV.EE7A9206.Up2Date
-<<<<<<< Updated upstream
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.deps.json
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfoInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfo.cs
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CoreCompileInputs.cache
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\refint\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.dll
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.pdb
+C:\ProgramasVisual\Curso de Sistema Venta Angular\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CopyComplete
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.deps.json
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
@@ -31,21 +29,3 @@ C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVent
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\refint\SistemaVenta.DAL.dll
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
 C:\Users\gusba\source\repos\Puttytech_Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll
-=======
->>>>>>> Stashed changes
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.deps.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\bin\Debug\net7.0\SistemaVenta.Model.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.AssemblyReference.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfoInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.AssemblyInfo.cs
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.csproj.CoreCompileInputs.cache
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.sourcelink.json
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaV.EE7A9206.Up2Date
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\refint\SistemaVenta.DAL.dll
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\SistemaVenta.DAL.pdb
-C:\Users\usuario\Documents\GitHub\Punto_de_Venta\APISistemaVenta\SistemaVenta.DAL\obj\Debug\net7.0\ref\SistemaVenta.DAL.dll

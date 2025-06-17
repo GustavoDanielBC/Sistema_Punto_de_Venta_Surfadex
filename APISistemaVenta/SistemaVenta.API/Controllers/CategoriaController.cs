@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 using SistemaVenta.BLL.Servicios.Contrato;
 using SistemaVenta.DTO;
 using SistemaVenta.API.Utilidad;
@@ -27,15 +28,17 @@ namespace SistemaVenta.API.Controllers
             try
             {
                 rsp.status = true;
-                rsp.Value = await _categoriaServicio.Lista();
+                rsp.value = await _categoriaServicio.Lista();
+
             }
             catch (Exception ex)
             {
                 rsp.status = false;
                 rsp.msg = ex.Message;
-            }
 
+            }
             return Ok(rsp);
         }
+
     }
 }

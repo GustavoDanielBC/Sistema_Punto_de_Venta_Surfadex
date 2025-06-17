@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
-using System.Runtime.InteropServices;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using SistemaVenta.BLL.Servicios.Contrato;
@@ -12,94 +13,100 @@ using SistemaVenta.DAL.Repositorios.Contrato;
 using SistemaVenta.DTO;
 using SistemaVenta.Model;
 
+
 namespace SistemaVenta.BLL.Servicios
 {
-    public class VentaService : IVentaService
+    public class VentaService: IVentaService
     {
-        private readonly IventaRepository _ventaRepositorio;
-        private readonly IGenericRepository<DetalleVenta> _detalleventaRepositorio;
+        private readonly IVentaRepository _ventaRepositorio;
+        private readonly IGenericRepository<DetalleVenta> _detalleVentaRepositorio;
         private readonly IMapper _mapper;
+
+        public VentaService(IVentaRepository ventaRepositorio, 
+            IGenericRepository<DetalleVenta> detalleVentaRepositorio,
+            IMapper mapper)
+        {
+            _ventaRepositorio = ventaRepositorio;
+            _detalleVentaRepositorio = detalleVentaRepositorio;
+            _mapper = mapper;
+        }
+
 
         public async Task<VentaDTO> Registrar(VentaDTO modelo)
         {
-            try
-            {
+            try {
+
                 var ventaGenerada = await _ventaRepositorio.Registrar(_mapper.Map<Venta>(modelo));
 
-                if (ventaGenerada.IdVenta == 0)
+                if(ventaGenerada.IdVenta == 0)
                     throw new TaskCanceledException("No se pudo crear");
 
                 return _mapper.Map<VentaDTO>(ventaGenerada);
-            }
-            catch
-            {
+            
+            } catch {
                 throw;
             }
         }
+
         public async Task<List<VentaDTO>> Historial(string buscarPor, string numeroVenta, string fechaInicio, string fechaFin)
         {
             IQueryable<Venta> query = await _ventaRepositorio.Consultar();
-            var listaResultado = new List<Venta>();
+            var ListaResultado = new List<Venta>();
 
-            try
-            {
+            try {
 
-                if(buscarPor == "fecha")
+                if (buscarPor == "fecha")
                 {
-                    DateTime fechInicio = DateTime.ParseExact(fechaInicio, "dd/MM/yyyy", new CultureInfo("es-MX"));
-                    DateTime fechFin = DateTime.ParseExact(fechaFin, "dd/MM/yyyy", new CultureInfo("es-MX"));
+                    DateTime fech_Inicio = DateTime.ParseExact(fechaInicio, "dd/MM/yyyy", new CultureInfo("es-PE"));
+                    DateTime fech_Fin = DateTime.ParseExact(fechaFin, "dd/MM/yyyy", new CultureInfo("es-PE"));
 
-                    listaResultado = await query.Where(v =>
-                    v.FechaRegistro.Value.Date >= fechInicio.Date &&
-                    v.FechaRegistro.Value.Date <= fechFin.Date
+                    ListaResultado = await query.Where(v =>
+                        v.FechaRegistro.Value.Date >= fech_Inicio.Date &&
+                        v.FechaRegistro.Value.Date <= fech_Fin.Date
                     ).Include(dv => dv.DetalleVenta)
                     .ThenInclude(p => p.IdProductoNavigation)
                     .ToListAsync();
                 }
-                else
-                {
-                    listaResultado = await query.Where(v => v.FolioFiscal == numeroVenta
-                    ).Include(dv => dv.DetalleVenta)
-                    .ThenInclude(p => p.IdProductoNavigation)
-                    .ToListAsync();
+                else {
+                    ListaResultado = await query.Where(v => v.NumeroDocumento == numeroVenta
+                      ).Include(dv => dv.DetalleVenta)
+                      .ThenInclude(p => p.IdProductoNavigation)
+                      .ToListAsync();
+
                 }
 
 
-            }
-            catch
-            {
+            } catch {
                 throw;
             }
 
-            return _mapper.Map<List<VentaDTO>>(listaResultado);
+            return _mapper.Map<List<VentaDTO>>(ListaResultado);
+
         }
 
         public async Task<List<ReporteDTO>> Reporte(string fechaInicio, string fechaFin)
         {
-            IQueryable<DetalleVenta> query = await _detalleventaRepositorio.Consultar();
-            var listaResultado = new List<DetalleVenta>();
+            IQueryable<DetalleVenta> query = await _detalleVentaRepositorio.Consultar();
+            var ListaResultado = new List<DetalleVenta>();
 
-            try
-            {
-                DateTime fechInicio = DateTime.ParseExact(fechaInicio, "dd/MM/yyyy", new CultureInfo("es-MX"));
-                DateTime fechFin = DateTime.ParseExact(fechaFin, "dd/MM/yyyy", new CultureInfo("es-MX"));
+            try {
 
-                listaResultado = await query
+                DateTime fech_Inicio = DateTime.ParseExact(fechaInicio, "dd/MM/yyyy", new CultureInfo("es-PE"));
+                DateTime fech_Fin = DateTime.ParseExact(fechaFin, "dd/MM/yyyy", new CultureInfo("es-PE"));
+
+                ListaResultado = await query
                     .Include(p => p.IdProductoNavigation)
                     .Include(v => v.IdVentaNavigation)
-                    .Where(dv =>
-                    dv.IdVentaNavigation.FechaRegistro.Value.Date >= fechInicio.Date &&
-                    dv.IdVentaNavigation.FechaRegistro.Value.Date <= fechFin.Date
+                    .Where(dv => 
+                        dv.IdVentaNavigation.FechaRegistro.Value.Date >= fech_Inicio.Date &&
+                        dv.IdVentaNavigation.FechaRegistro.Value.Date <= fech_Fin.Date
                     ).ToListAsync();
 
-
-            }
-            catch
-            {
-                throw; 
+            } catch {
+                throw;
             }
 
-            return _mapper.Map<List<ReporteDTO>>(listaResultado);
+            return _mapper.Map<List<ReporteDTO>>(ListaResultado);
         }
     }
 }

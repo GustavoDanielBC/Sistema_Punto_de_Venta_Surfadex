@@ -112,7 +112,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Usuario",
+        "Name": "usuario",
         "Type": "SistemaVenta.DTO.UsuarioDTO",
         "IsRequired": true
       }
@@ -144,7 +144,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Usuario",
+        "Name": "usuario",
         "Type": "SistemaVenta.DTO.UsuarioDTO",
         "IsRequired": true
       }

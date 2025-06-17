@@ -1,9 +1,8 @@
 import { DetalleVenta } from "./detalle-venta"
 
 export interface Venta {
-    numeroDocumento?: string
     idVenta?:number,
-    folioFiscal?:string,
+    numeroDocumento?:string,
     tipoPago:string,
     fechaRegistro?:string,
     totalTexto:string,
